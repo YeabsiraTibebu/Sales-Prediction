@@ -12,12 +12,12 @@ class FileHandler():
         pass
 
     def to_csv(self, df, csv_path, index=False):
-        #try:
+        try:
             df.to_csv(csv_path, index=index)
             # self.logger.info(f'Csv file saved in {csv_path}.')
 
-       # except Exception:
-         #   self.logger.exception('File saving failed.')
+        except Exception:
+            self.logger.exception('File saving failed.')
 
     def read_csv(self, csv_path, missing_values=["n/a", "na", "undefined"]):
         try:
