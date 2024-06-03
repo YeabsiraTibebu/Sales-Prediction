@@ -12,11 +12,11 @@ The goal is to check how some measures such as promos and the opening of new sto
 
 Task-2
 Prediction of store sales
-    Preprocessing
-    Building models using sklearn pipliens
-    Choose a loss function
-    Post prediction analysis
-    Serialize models
-    Building models with deep learning
+1. Preprocessing
+2. Building models using sklearn pipliens
+3. Choose a loss function
+4. Post prediction analysis
+5. Serialize models
+6. Building models with deep learning
 
 
